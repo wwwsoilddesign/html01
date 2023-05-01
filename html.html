@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+        textarea{
+            width: 98%;
+        }
+
+</style>
+</head>
+<body> 
+
+    <h2 align="center"> world best pizza shop</h2>
+      
+    <form action="storedata.php"
+    method="post">
+
+    <table width="30%" align="center">
+        <tr>
+            <th colspan="3"> pizza HUT Pizza shop2.0</th>
+        </tr>
+
+        <tr> </tr>
+            <td>Name</td><td colspan="2"><input type="text" placeholder="enter tour name" id="name"></td>
+        </tr>
+        <td>Email id</td> <td colspan="2"><input type="email" placeholder="Enter your E-mail" id="email"></td>
+        <tr>
+            <td>pizza topping</td>
+            <td colspan="2">
+                <input type="radio" id="supereme" name="pizza" value="super">
+                <label
+                for="supreme">supreme</label> <br>
+                <input type="radio" id="vegtrani" name="pizza" value="vegtrani">
+                <label
+                for="supreme">vegtrani</label> <br>
+                <input type="radio" id="hawiina" name="pizza" value="hawiina">
+                <label
+                for="supreme">supreme</label><br>
+                <input type="radio" id="supereme" name="pizza" value="super">
+                <label
+                for="supreme">supreme</label>
+                <br>
+
+                <tr>
+                    <td>Pizza sauce</td>
+                    <td colspan="2">
+                        <select id="sauce">
+                            <option
+                             value="brg">barbeque </option>
+                             <option
+                             value="Ve">vegtraine </option>
+                             <option
+                             value="Ve">vegtraine </option>
+                             <option
+                             value="Ve">vegtraine </option>
+
+                        </select>
+                    </td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>optional extras</td>
+            <td colspan="2">
+                <input type="checkbox" id="option1" name="option1" value="cheesee">
+                <label for="option1">cheesee</label>
+                <input type="checkbox" id="option2" name="option2" value="pepper">
+                <label for="option2">pepper</label>
+                <input type="checkbox" id="option3" name="option3" value="hot veg">
+                <label for="option3">hot veg</label>
+                <input type="checkbox" id="option4" name="option4" value="panner">
+                <label for="option4">panner</label>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                Address and delvery instsucation:<br>
+                <textarea rows="6" name="uadderss"></textarea> <br> <br> <br>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <button> send my order:</button>
+                <button> clear:</button>
+                <button> reset:</button>
+            </td>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
